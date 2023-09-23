@@ -12,14 +12,12 @@
   </head>
   <body class="page">
     <main class="content">
-
       <section class="result">
         <div class="result__video-container">
-          <video src="" controls class="result__video" poster=""></video>
+          <video src="" controls class="result__video" poster="" muted></video>
         </div>
 
         <form class="search-form">
-
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
@@ -31,7 +29,6 @@
                 class="search-form__textfield"
               />
             </label>
-
           </fieldset>
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
@@ -72,7 +69,6 @@
           <button type="submit" class="button search-form__submit-button">
             Найти
           </button>
-
         </form>
       </section>
 
@@ -80,7 +76,7 @@
         <h1 class="title">
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
-        
+
         <ul class="content__list">
           <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
           <template class="preloader-template">
@@ -93,7 +89,7 @@
               </div>
             </div>
           </template>
-      
+
           <template class="cards-list-item-template">
             <li class="content__list-item">
               <a href="#0" class="content__card-link">
@@ -107,24 +103,22 @@
               </a>
             </li>
           </template>
-          
+
           <template class="more-button-template">
             <li><button class="button more-button">Показать еще</button></li>
           </template>
-      
+
           <template class="error-template">
             <div class="error">
               <h2 class="error__title"></h2>
             </div>
           </template>
         </ul>
-
       </section>
     </main>
 
     <!-- ТЕМПЛЕЙТЫ -->
 
-    
     <script src="./scripts/script.js"></script>
   </body>
 </html>
