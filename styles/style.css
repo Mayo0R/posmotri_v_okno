@@ -194,6 +194,7 @@ ol {
   align-items: flex-start;
   block-size: 298px;
   overflow-y: scroll;
+  position: relative;
 }
 
 .content__list-item:not(:last-of-type) {
