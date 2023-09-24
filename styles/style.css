@@ -263,9 +263,9 @@ ol {
   object-fit: cover;
 }
 
-.preloader-template {
+/*.preloader-template {
   position: absolute;
-}
+}*/
 
 .button {
   cursor: pointer;
