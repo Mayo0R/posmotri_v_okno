@@ -164,7 +164,6 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
-  inline-size: 394px;
   block-size: 103px;
   margin: 2px;
 }
@@ -268,17 +267,12 @@ input::placeholder {
   content: "";
   inline-size: 15px;
   block-size: 15px;
-  inset: 1px;
   background-color: #fff;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover {
   text-decoration: underline;
   cursor: pointer;
-}
-
-.search-form__pseudo-checkbox:hover + .search-form__label-text {
-  text-decoration: underline;
 }
 
 .button:focus {
